@@ -30,6 +30,60 @@
 <img src="IMG_20260108_142729.jpg" alt="Construction Work" style="width:100%; max-width:600px; border-radius:10px;">
 <img src="IMG-20260108-WA0011.jpg" alt="Construction Work" style="width:100%; max-width:600px; border-radius:10px;">
 <img src="IMG_20260108_142801.jpg" alt="Construction Work" style="width:100%; max-width:600px; border-radius:10px;">
+<style>
+    .img-container {
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+        overflow: hidden;
+    }
+    .watermark {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background: rgba(255, 255, 255, 0.5); /* Halka transparent background */
+        color: #001f3f;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        pointer-events: none; /* Isse watermark par click nahi hoga */
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    .main-img {
+        width: 100%;
+        max-width: 600px;
+        border-radius: 10px;
+        display: block;
+    }
+</style>
+
+<div style="text-align:center;">
+    <div class="img-container">
+        <img src="IMG_20260108_142838.jpg" class="main-img" alt="Construction Work">
+        <div class="watermark">Saha Enterprises</div>
+    </div>
+    
+    <div class="img-container">
+        <img src="IMG-20260108-WA0010.jpg" class="main-img" alt="Construction Work">
+        <div class="watermark">Saha Enterprises</div>
+    </div>
+    
+    <div class="img-container">
+        <img src="IMG_20260108_142729.jpg" class="main-img" alt="Construction Work">
+        <div class="watermark">Saha Enterprises</div>
+    </div>
+
+    <div class="img-container">
+        <img src="IMG-20260108-WA0011.jpg" class="main-img" alt="Construction Work">
+        <div class="watermark">Saha Enterprises</div>
+    </div>
+
+    <div class="img-container">
+        <img src="IMG_20260108_142801.jpg" class="main-img" alt="Construction Work">
+        <div class="watermark">Saha Enterprises</div>
+    </div>
+</div>
 <section id="contact" style="background-color: #f9f9f9; padding: 40px 20px; text-align: center;">
     <h2 style="color: #001f3f;">Contact Us</h2>
     <p>Humein call karein ya email bhein, hum turant jawab denge.</p>
